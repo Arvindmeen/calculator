@@ -1,0 +1,64 @@
+@import url(https://fonts.google.com/share?selection.family=Lexend:wght@100..900|Montserrat:ital,wght@0,100..900;1,100..900|PT+Serif:ital,wght@0,400;0,700;1,400;1,700|Roboto:ital,wght@0,100..900;1,100..900);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
+
+}
+.calculator{
+    border: 2px solid gray;
+    box-shadow: 3px 4px 5px gray;
+    padding: 10px;
+    border-radius: 6px;
+    /* background-color: transparent; */
+}
+ 
+input{
+    width: 93%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow:3px 4px 5px rgb(106, 105, 105) ;
+    font-size: 20px;
+    text-align: right;
+    color: aliceblue;
+}
+/* input::placeholder{
+    color: aliceblue;
+} */
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; */
+     /* grid-template-rows: repeat(6, 50px); */
+    /* row-gap:px; */
+    border-radius: 10px;
+    box-shadow:3px 4px 5px rgb(106, 105, 105) ;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    column-gap: 10px;
+}
+button{
+    background-color: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+}
+.operator{
+    color: greenyellow;
+}
+.eqqbtn{
+   background-color: orangered;
+}
